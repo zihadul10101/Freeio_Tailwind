@@ -1,0 +1,48 @@
+@media only screen and (max-width: 768px) {
+
+    .container {
+        width: 428px;
+        height: 532px;
+        left: -14px;
+        top: -11px;
+        background: url(../../Image/hero/hero.svg);
+    }
+
+    .hero-container {
+        width: 388px;
+        height: 300px;
+        left: 20px;
+        top: 180px;
+
+    }
+
+    .hero-title {
+        width: 388px;
+        height: 84px;
+        left: 20px;
+        top: 180px;
+
+        /* 32 / Bold */
+
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+
+        color: #FFFFFF;
+    }
+
+    .hero-title-small {
+        width: 388px;
+        height: 56px;
+        left: 20px;
+        top: 274px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+}
