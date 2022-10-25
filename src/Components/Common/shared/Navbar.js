@@ -4,7 +4,7 @@ import logo from '../../../Assets/Image/hero/Logo.svg';
 import nav_icon from '../../../Assets/Image/hero/nav_icon.svg';
 const Navbar = () => {
     return (
-        <div className=" navbar" id="navigation">
+        <div className=" navbar" >
             <div className="nevbar-inner">
                 <div className="nev-logo">
                     <div>    <img src={logo} /></div>

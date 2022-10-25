@@ -7,7 +7,7 @@
         top: 0px;
         background: linear-gradient(180deg, rgba(34, 34, 34, 0.8) 0%, rgba(34, 34, 34, 0.3) 100%);
     }
-    #navigation.navbar {
+   .navbar {
         width: 428px;
         height: 60px;
         left: 0px;
