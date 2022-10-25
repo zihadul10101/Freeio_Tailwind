@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../Assets/Styles/css/Hero.css'
+import '../../Assets/Styles/css/Hero.css';
+import searchIcon from '../../Assets/Image/hero/search.svg';
 const Hero = () => {
     return (
         <div className="container">
@@ -9,10 +10,13 @@ const Hero = () => {
                     ideas into reality.</p>
                      <div className='search'>
                      <div className="search-input-btn">
-                        
+                        <div className='search-input-inner'>
+                            <img src={searchIcon} />
+                            <p>What are you looking for?</p>
+                        </div>
                         </div>
                         <div className="search-btn">
-    
+                        <p>Search</p>
                         </div>
                         </div>    
             </div>
