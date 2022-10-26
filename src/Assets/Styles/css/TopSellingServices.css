@@ -7,24 +7,64 @@
 
 }
 
-.contant {
-    height: 157px;
-    left: 260px;
-    margin-top: 40px;
-    border: 5px solid black;
+.container h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #222222;
+
 }
 
-.contant-box {
-    width: 290px;
-    height: 150px;
-    border: 5px solid blueviolet;
+.container p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #222222;
+
+
+}
+
+.contant {
+    height: 157px;
+    margin-top: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 12px;
 }
 
-.contant-box .img {
+.contant-box {
+    width: 306px;
+    height: 150px;
+}
+
+.contant-box img {
     width: 40px;
     height: 40px;
-    border: 5px solid sandybrown;
+
 }
+
+.contant-box .contant-text h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #222222;
+    margin-top: 10px;
+}
+
+.contant-box .contant-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #222222;
+    margin-top: 10px;
+}
+
+
