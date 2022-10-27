@@ -1,0 +1,70 @@
+.popular-title-button {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.popular-title-button .tab {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.popular-title-button .tab button {
+    padding: 6px 17px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #222222;
+
+}
+
+.popular-title-button .tab button:hover {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #5BBB7B;
+}
+
+.popular-contant {
+    height: 350px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    border: 5px solid blanchedalmond;
+}
+
+.popular-contant-box {
+    box-sizing: border-box;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    /* border: 1px solid #E9E9E9; */
+    border: 1px solid skyblue;
+    border-radius: 16px;
+    width: 25%;
+}
+
+.popular-contant-box-img img{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 47.08%;
+    background: #222222;
+    border-radius: 16px 16px 0px 0px;
+}
+.popular-contant-box-text{
+    left: 9.12%;
+    right: 8.81%;
+    top: 57.24%;
+    bottom: 3.89%;
+}
