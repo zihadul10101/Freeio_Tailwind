@@ -32,7 +32,7 @@
 }
 
 .popular-contant {
-    height: 350px;
+    /* height: 150px; */
     margin-top: 40px;
     display: flex;
     flex-direction: row;
@@ -43,18 +43,15 @@
 
 .popular-contant-box {
     box-sizing: border-box;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
     background: #FFFFFF;
     /* border: 1px solid #E9E9E9; */
     border: 1px solid skyblue;
     border-radius: 16px;
-    width: 25%;
+    width: 24%;
+    height: 420px;
 }
 
-.popular-contant-box-img img{
+.popular-contant-box-img img {
     left: 0%;
     right: 0%;
     top: 0%;
@@ -62,9 +59,82 @@
     background: #222222;
     border-radius: 16px 16px 0px 0px;
 }
-.popular-contant-box-text{
+
+.popular-contant-box-text {
     left: 9.12%;
     right: 8.81%;
     top: 57.24%;
     bottom: 3.89%;
+}
+
+.popular-head-review-bottom {
+    padding: 9.12% 8.81% 57.24% 3.89%;
+}
+
+.popular-head-review-bottom .head p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #6B7177;
+}
+
+.popular-head-review-bottom .head h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    color: #222222;
+}
+.popular-head-review-bottom .head h3:hover {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;    
+    text-decoration-line: underline; 
+    color: #5BBB7B;
+}
+
+.popular-head-review-bottom .review {
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  gap: 10px;
+  margin: 5px 0;
+}
+.popular-head-review-bottom .review p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #6B7177;
+}
+.popular-head-review-bottom .bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  gap: 10px;
+  margin: 6px 0;
+  border-top: 1px solid  #E9E9E9;
+  padding:3px;
+}
+.popular-head-review-bottom .bottom .bottom-freelancer-name{
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  gap: 5px;
+  
+}
+.popular-head-review-bottom .bottom .bottom-freelancer-name img{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+span{
+    color: black;
+    font-weight: 700;
 }
