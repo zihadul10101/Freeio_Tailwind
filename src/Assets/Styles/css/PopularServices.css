@@ -38,7 +38,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 12px;
-   
+
 }
 
 .popular-contant-box {
@@ -48,15 +48,37 @@
     border-radius: 16px;
     width: 24%;
     height: 420px;
+    position: relative;
 }
 
-.popular-contant-box-img img {
-    left: 0%;
+.popular-contant-box-img .img {
+    left: 83%;
     right: 0%;
     top: 0%;
     bottom: 47.08%;
     background: #222222;
     border-radius: 16px 16px 0px 0px;
+}
+
+.popular-contant-box-img .heart {
+    position: absolute;
+    top: 20px;
+    right: 17px;
+    width: 36px;
+    height: 36px;
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.popular-contant-box-img .heart img {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 27px;
+    height: 27px;
+
 }
 
 .popular-contant-box-text {
@@ -87,24 +109,32 @@
     line-height: 28px;
     color: #222222;
 }
+
+.popular-head-review-bottom .head .online {
+    position: absolute;
+    right: 258px;
+    top: 382px;
+}
+
 .popular-head-review-bottom .head h3:hover {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 28px;    
-    text-decoration-line: underline; 
+    line-height: 28px;
+    text-decoration-line: underline;
     color: #5BBB7B;
 }
 
 .popular-head-review-bottom .review {
-  display: flex;
-  justify-content: flex-start;
-  align-items:center;
-  gap: 10px;
-  margin: 5px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
 }
-.popular-head-review-bottom .review p{
+
+.popular-head-review-bottom .review p {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -112,28 +142,32 @@
     line-height: 28px;
     color: #6B7177;
 }
+
 .popular-head-review-bottom .bottom {
-  display: flex;
-  justify-content: flex-start;
-  align-items:center;
-  gap: 10px;
-  margin: 6px 0;
-  border-top: 1px solid  #E9E9E9;
-  padding:3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin: 6px 0;
+    border-top: 1px solid #E9E9E9;
+    padding: 3px;
 }
-.popular-head-review-bottom .bottom .bottom-freelancer-name{
-  display: flex;
-  justify-content: flex-start;
-  align-items:center;
-  gap: 5px;
-  
+
+.popular-head-review-bottom .bottom .bottom-freelancer-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+
 }
-.popular-head-review-bottom .bottom .bottom-freelancer-name img{
-width: 30px;
-height: 30px;
-border-radius: 50%;
+
+.popular-head-review-bottom .bottom .bottom-freelancer-name img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
-span{
+
+span {
     color: black;
     font-weight: 700;
 }

@@ -2,7 +2,9 @@ import React from 'react';
 import '../../Assets/Styles/css/PopularServices.css';
 import popular from '../../Assets/Image/hero/Surface 1.png'
 import start from '../../Assets/Image/hero/ster (1).png';
-import { popularServices,serviceTitle } from '../../../src/utiltes/LocalDatabase';
+import heart from '../../Assets/Image/hero/heart.svg';
+import circle from '../../Assets/Image/hero/circle.png';
+import { popularServices, serviceTitle } from '../../../src/utiltes/LocalDatabase';
 
 const PopularServices = () => {
     return (
@@ -16,12 +18,12 @@ const PopularServices = () => {
                 </div>
                 <div className="tab">
                     {
-                        serviceTitle.map(item=><>
-                          <button>{item.title}</button>
+                        serviceTitle.map(item => <>
+                            <button>{item.title}</button>
                         </>)
                     }
-                  
-                 
+
+
                 </div>
             </div>
             <div className="popular-contant">
@@ -29,7 +31,10 @@ const PopularServices = () => {
                     popularServices.map(service => <>
                         <div className="popular-contant-box">
                             <div className="popular-contant-box-img">
-                                <img src={popular} alt="popular-contant-box-img" />
+                                <img className="img" src={popular} alt="popular-contant-box-img" />
+                                <div className="heart">
+                                    <img src={heart} alt="popular-contant-box-img" />
+                                </div>
                             </div>
                             <div className="popular-head-review-bottom">
 
@@ -37,7 +42,8 @@ const PopularServices = () => {
                                 <div className="head">
                                     <p>{service.item}</p>
                                     <h3 className="hover">{service.title}</h3>
-                                    
+                                    <img className="online" src={circle} alt="popular-contant-box-img" />
+
                                 </div>
                                 <div className="review">
                                     <div>
