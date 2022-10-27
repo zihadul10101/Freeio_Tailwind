@@ -104,3 +104,37 @@ export const popularServices = [
         name: 'Wanda Runo'
     },
 ];
+export const serviceTitle = [
+    {
+        id: 1,
+        title: "Web & App Design",
+        name: "design",
+    
+    },
+
+    {
+        id: 2,
+        title: "Design & Creative",
+        name: "design",
+       
+    },
+    {
+        id: 3,
+        title: "Digital Marketing",
+        name: "design",
+      
+    },
+    {
+        id: 4,
+        title: "Music & Audio",
+        name: "design",
+       
+    },
+    {
+        id: 5,
+        title: "Video & Animation",
+        name: "design",
+        image: "DigitalMarketing.png"
+    },
+  
+]

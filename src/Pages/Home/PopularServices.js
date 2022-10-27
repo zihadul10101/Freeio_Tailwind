@@ -2,7 +2,7 @@ import React from 'react';
 import '../../Assets/Styles/css/PopularServices.css';
 import popular from '../../Assets/Image/hero/Surface 1.png'
 import start from '../../Assets/Image/hero/ster (1).png';
-import { popularServices } from '../../../src/utiltes/LocalDatabase';
+import { popularServices,serviceTitle } from '../../../src/utiltes/LocalDatabase';
 
 const PopularServices = () => {
     return (
@@ -15,10 +15,13 @@ const PopularServices = () => {
                     <p>Most viewed and all-time top-selling PopularServices</p>
                 </div>
                 <div className="tab">
-                    <button>Development & IT</button>
-                    <button>Development & IT</button>
-                    <button>Development & IT</button>
-                    <button>Development & IT</button>
+                    {
+                        serviceTitle.map(item=><>
+                          <button>{item.title}</button>
+                        </>)
+                    }
+                  
+                 
                 </div>
             </div>
             <div className="popular-contant">
