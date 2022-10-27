@@ -1,4 +1,6 @@
-import service from '../Assets/Image/top-selling-service/Vector.svg'
+import service from '../Assets/Image/top-selling-service/Vector.svg';
+import rightIcon from '../Assets/Image/hero/righticon.svg';
+
 
 export const topSellingServices = [
     {
@@ -137,4 +139,40 @@ export const serviceTitle = [
         image: "DigitalMarketing.png"
     },
   
+]
+export const contactUs = [
+    {
+        id: 1,
+        title: "The best for every budget",
+        img:rightIcon
+        
+    },
+    {
+        id: 2,
+        title: "The best for every budget",
+        img:rightIcon
+        
+    },
+    {
+        id: 3,
+        title: "The best for every budget",
+        img:rightIcon
+        
+    },
+    {
+        id: 4,
+        title: "The best for every budget",
+        img:rightIcon
+        
+    },
+    {
+        id: 5,
+        title: "The best for every budget",
+        img:rightIcon
+    },
+    {
+        id: 6,
+        title: "The best for every budget",
+        img:rightIcon
+    },
 ]
