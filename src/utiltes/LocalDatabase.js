@@ -1,5 +1,7 @@
 import service from '../Assets/Image/top-selling-service/Vector.svg';
 import rightIcon from '../Assets/Image/hero/righticon.svg';
+import category from '../Assets/Image/hero/caterory.jpg';
+
 
 
 export const topSellingServices = [
@@ -174,5 +176,27 @@ export const contactUs = [
         id: 6,
         title: "The best for every budget",
         img:rightIcon
+    },
+];
+export const categoryItem = [
+    {
+        id: 1,
+        title: "The best for every budget",
+        img:category
+    },
+    {
+        id: 2,
+        title: "The best for every budget",
+        img:category
+    },
+    {
+        id: 3,
+        title: "The best for every budget",
+        img:category
+    },
+    {
+        id: 4,
+        title: "The best for every budget",
+        img:category
     },
 ]

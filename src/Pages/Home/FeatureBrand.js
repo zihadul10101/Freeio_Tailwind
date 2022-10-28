@@ -11,11 +11,11 @@ const FeatureBrand = () => {
         <div className="container">
             <p className='headline'>Trusted by the world’s best</p>
             <div className="featureBrand-box">
-            <img src={featureBrand1} alt="contact-us" />
-            <img src={featureBrand2} alt="contact-us" />
-            <img src={featureBrand3} alt="contact-us" />
-            <img src={featureBrand4} alt="contact-us" />
-            <img src={featureBrand5} alt="contact-us" />
+            <img src={featureBrand1} alt="featureBrand" />
+            <img src={featureBrand2} alt="featureBrand" />
+            <img src={featureBrand3} alt="featureBrand" />
+            <img src={featureBrand4} alt="featureBrand" />
+            <img src={featureBrand5} alt="featureBrand" />
             </div>
         </div>
     );
