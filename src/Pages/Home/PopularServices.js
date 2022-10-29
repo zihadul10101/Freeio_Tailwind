@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../Assets/Styles/css/PopularServices.css';
-import popular from '../../Assets/Image/hero/Surface 1.png'
+import popular from '../../Assets/Image/hero/Surface 1.png';
 import start from '../../Assets/Image/hero/ster (1).png';
 import heart from '../../Assets/Image/hero/heart.svg';
 import circle from '../../Assets/Image/hero/circle.png';

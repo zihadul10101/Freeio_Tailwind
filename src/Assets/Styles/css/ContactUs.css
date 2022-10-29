@@ -8,7 +8,7 @@
     content: center;
     padding: 100px;
     border-radius: 60px;
-   
+    border: 5px solid greenyellow;
 }
 
 .contact-head p {
@@ -79,8 +79,7 @@
 }
 
 .middle-box {
-    width: 290px;
-   
+    width: 290px;   
     top: 42px;
     left: 777px;
     background: #1F4B3F;

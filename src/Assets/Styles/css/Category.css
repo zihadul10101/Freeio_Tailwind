@@ -3,18 +3,16 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 4px;
     margin-top: 25px;
-    border: 5px solid gold;
     position: relative;
+    gap: 2px;
 }
 
 .category-box {
     border-radius: 16px;
-    width: 245px;
-    height: 260px;
-   
-    /* background: linear-gradient(180deg, rgba(34, 34, 34, 0.7) 0%, rgba(34, 34, 34, 0) 100%); */
+    width: 24%;
+    height: 320px;
+    background: linear-gradient(180deg, rgba(34, 34, 34, 0.7) 0%, rgba(34, 34, 34, 0) 100%);
 
 }
 .category-box img{

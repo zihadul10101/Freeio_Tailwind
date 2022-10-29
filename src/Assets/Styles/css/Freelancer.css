@@ -1,0 +1,17 @@
+.freelancer-contant{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.freelancer-box {
+    border-radius: 16px;
+    width: 24%;
+    height: 420px;
+    border: 5px solid gold;
+}
+.freelancer-box-inner{
+    padding: 5px;
+    border: 5px solid green;
+}
