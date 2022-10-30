@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../Assets/Styles/css/Hero.css';
 import searchIcon from '../../Assets/Image/hero/search.svg';
+import popular from '../../Assets/Image/hero/Surface 1.png';
+
 const Hero = () => {
     return (
         <div className="container">
@@ -44,8 +46,33 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="hero-image">
-
+                  <img src={popular} alt="search icon" />      
+                  <img src={popular} alt="search icon" />      
                 </div>
+            </div>
+            <div className="hero-badge">
+            <div className="hero-badge1">
+              <div className="hero-badge-image">
+                <img src={popular} alt="search icon" />
+              </div>
+              <div className="hero-badge-text">
+                <h4>Proof of quality</h4>
+                <p>Lorem Ipsum Dolar Amet</p>
+              </div>
+            </div>
+            <div className="hero-badge2">
+            <div className="hero-badge-image">
+                <img src={popular} alt="search icon" />
+              </div>
+              <div className="hero-badge-text">
+                <h4>Safe and secure</h4>
+                <p>Lorem Ipsum Dolar Amet</p>
+              </div>
+            </div>
+            <div className="hero-badge3">
+              <h3>58M+ Professionals</h3>
+              <img src={popular} alt="search icon" />
+            </div>
             </div>
         </div>
     );
