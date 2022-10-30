@@ -14,7 +14,6 @@ const Testimonials = () => {
                                 <h2>People Love To Learn With Freeio</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur.</p>
                             </div>
-
                         </div>
                         <div className="testimonials-bottom">
                             <div className="testimonials-bottom-box">
