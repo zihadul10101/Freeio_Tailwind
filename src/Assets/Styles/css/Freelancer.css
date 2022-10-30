@@ -1,17 +1,38 @@
-.freelancer-contant{
+.freelancer-contant {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 25px;
 }
+
 .freelancer-box {
     border-radius: 16px;
     width: 24%;
     height: 420px;
     border: 5px solid gold;
 }
-.freelancer-box-inner{
+
+.freelancer-box-inner {
     padding: 5px;
     border: 5px solid green;
+}
+
+.freelancer-image-head-tag {
+    border: 5px solid burlywood;  
+}
+
+.freelancer-image {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    border: 5px solid red; 
+    
+}
+.freelancer-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    border: 5px solid yellow; 
 }
