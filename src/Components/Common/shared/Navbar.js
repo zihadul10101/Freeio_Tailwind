@@ -16,7 +16,7 @@ const Navbar = () => {
                         </li>
                         <li className="category-logo">
                             <img src={catIcon} alt="" />
-                            <h4>Category</h4>
+                            <h5>Category</h5>
                         </li>
                         <li>
                             <h5> Home </h5>
@@ -46,7 +46,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-right">
                     <ul>
-                        <li> <img src={searchIcon} alt="" /></li>
+                        <li> <img className="searchIcon" src={searchIcon} alt="" /></li>
                         <li>
                             <h5>Become a Seller</h5>
                         </li>
@@ -54,7 +54,7 @@ const Navbar = () => {
                             <h5>Sign In</h5>
                         </li>
                         <li>
-                            <button>Join</button>
+                            <h5>Join</h5>
                         </li>
                     </ul>
                 </div>
